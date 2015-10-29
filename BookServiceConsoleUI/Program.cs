@@ -11,7 +11,7 @@ namespace BookServiceConsoleUI
             Book[] books=new Book[5];
             books[0] = new Book("Albahari", "C# in a nutshell", 2012, 1043);
             books[1] = new Book("Richter", "CLR via C#", 2013, 896);
-            books[2] = new Book("Richter", "Thinking in Java", 2009, 637);
+            books[2] = new Book("Eckel", "Thinking in Java", 2009, 637);
             books[3] = new Book("Lorem", "Ipsum", 2005, 1024);
             books[4] = new Book("Dolor", "Sit Amet", 2015, 512);
             for (int i = 0; i < books.Length; i++)
